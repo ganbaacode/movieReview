@@ -28,6 +28,7 @@ text-align: center;
     border-radius: 20px;
     width: 800px;
     margin: auto;
+    
 }
 
 .conbanner{
@@ -45,7 +46,13 @@ text-align: center;
     font-weight: bold;
 }
 
+table{
+    margin: 10px 10px;
+}
 
+table > td{
+    margin: 10px 10px 10px;
+}
 
 .columns{
     display: flex;
@@ -68,6 +75,18 @@ text-align: center;
     width: 50%;
 }
 
+.comment > img{
+    float: left;
+    margin: 8px;
+}
+
+.comment > p{
+    text-align: justify;
+    font-size: 10px;
+    padding: 10px;
+    
+}
+
 .author{
     font-size: 10px;
     width: 50%;
@@ -76,6 +95,15 @@ text-align: center;
 
 .author > img{
     position: absolute;
+}
+
+.author > p{
+    position: relative;
+    left: 40px;
+}
+
+.author > p >span{
+    font-style: italic;
 }
 
 .col-overview{
@@ -98,3 +126,14 @@ img{
     overflow: hidden;
 }
 
+.footer{
+    font-size: 12px;
+    text-align: center;
+    background-color: #A2B964;
+    margin: 0;
+    padding: 10px;
+}
+
+.validate{
+    float: right;
+}
